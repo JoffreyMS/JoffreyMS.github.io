@@ -1,0 +1,137 @@
+body{
+    background-color: #111821;
+    color: rgb(194,194,194);
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-sm .container-md {
+    background-color: #151E29;
+}
+
+/* HEADER */
+.name{
+    color: #fff;
+    font-weight: 900;
+    font-size: 2.3em;
+    letter-spacing: 0.1em;
+}
+.job{
+    font-size: 1.3em;
+}
+
+.profile-picture{
+    background-color: #e8e8e8;
+    max-width: 120px;
+}
+
+.list-unstyled{ /* Header et Aside */
+    list-style: none;
+    display: block;
+    padding-left: 0; 
+    font-size: 0.875rem;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(194,194,194);
+}
+
+.form-link{
+    text-decoration: underline;
+}
+.link{
+    text-decoration: none;
+    color: #E8E9EB;
+}
+
+a:hover{
+    color: rgb(84 182 137);
+}
+
+/* MAIN/ASIDE */
+.section-title{
+    position: relative;
+    padding-left: 1rem;
+    font-size: 1.125rem;
+    letter-spacing: 0.15rem;
+    color: #fff;
+}
+
+.section-title::before{
+    content: "";
+    display: inline-block;
+    width: 5px;
+    height: 100%;
+    background : rgb(84 182 137);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/* MAIN */
+.resume-main .item-title--job{
+    font-size: 1rem;
+    color: rgb(255,255,255);
+}
+
+.resume-main .item-title--date{
+    font-size: 0.75rem;
+    color: grey;
+}
+
+.resume-main .item-content{
+    font-size: 0.875rem;
+    color: rgb(194,194,194);
+}
+
+p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.item-title--job{
+    font-size: 1.125rem;
+    letter-spacing: 0.05rem;
+}
+
+/* ASIDE */
+
+.resume-aside{
+    border-left: #111821 solid 1px;
+}
+
+.resume-degree{
+    font-weight: bold;
+}
+
+.resume-degree--school, .resume-degree--date, .level{
+    color: grey
+}
+
+/* FOOTER */
+.resume-footer{
+    display: block;
+}
+
+.resume-social-list{
+    font-size: 0.80rem;
+    color: grey;
+}
+
+.list-inline{
+    padding-left: 0;
+    list-style: none;
+}
+.list-inline-item{
+    display: inline-block;
+}
+
+.list-inline-item .fa-brands{
+    vertical-align: -0.19em;
+}
+
+
+
+
+
+
